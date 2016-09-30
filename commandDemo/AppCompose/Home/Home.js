@@ -39,15 +39,19 @@
   }
 
   function insertMsg1() {
+    console.log("Calling ajax")
     $.ajax({
       url: "https://support.nittygritty.net/sessions.json",
       type: "POST",
       contentType: "application/json; charset=utf-8",
       dataType: "json",
       success: function (data) {
-        app.showNotification('Error: ' + errorCode + ' - ' + errorMessage);
+        console.log(data)
+        app.showNotification(data);
       },
       error: function (data, errorCode, errorMessage) {
+        console.log(errorCode)
+        console.log(errorMessage)
         app.showNotification('Error: ' + errorCode + ' - ' + errorMessage);
       }
     });
