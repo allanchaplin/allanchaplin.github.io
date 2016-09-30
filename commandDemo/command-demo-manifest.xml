@@ -12,7 +12,7 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Add-in Command Demo" />
   <Description DefaultValue="Adds command buttons to the ribbon in Outlook"/>
-  <IconUrl DefaultValue="https://allanchaplin.github.io/commandDemo/images/blue-64.png" />
+  <IconUrl DefaultValue="https://allanchaplin.github.io/commandDemo/Images/blue-64.png" />
   <HighResolutionIconUrl DefaultValue="https://allanchaplin.github.io/commandDemo/images/blue-80.png" />
   <Hosts>
     <Host Name="Mailbox" />
