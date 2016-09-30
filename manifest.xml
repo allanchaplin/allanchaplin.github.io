@@ -20,17 +20,17 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="allanchaplin.github.io/" />
+        <SourceLocation DefaultValue="https://allanchaplin.github.io" />
         <RequestedHeight>400</RequestedHeight>
       </DesktopSettings>
       <TabletSettings>
         <SourceLocation DefaultValue=
-          "allanchaplin.github.io/" />
+          "https://allanchaplin.github.io" />
           <RequestedHeight>400</RequestedHeight>
         </TabletSettings>
         <PhoneSettings>
           <SourceLocation DefaultValue=
-            "allanchaplin.github.io/" />
+            "https://allanchaplin.github.io" />
           </PhoneSettings>
         </Form>
       </FormSettings>
