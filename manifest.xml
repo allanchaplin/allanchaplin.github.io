@@ -20,17 +20,17 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="addintest.s3-website-eu-west-1.amazonaws.com" />
+        <SourceLocation DefaultValue="allanchaplin.github.io/" />
         <RequestedHeight>400</RequestedHeight>
       </DesktopSettings>
       <TabletSettings>
         <SourceLocation DefaultValue=
-          "addintest.s3-website-eu-west-1.amazonaws.com" />
+          "allanchaplin.github.io/" />
           <RequestedHeight>400</RequestedHeight>
         </TabletSettings>
         <PhoneSettings>
           <SourceLocation DefaultValue=
-            "addintest.s3-website-eu-west-1.amazonaws.com" />
+            "allanchaplin.github.io/" />
           </PhoneSettings>
         </Form>
       </FormSettings>
