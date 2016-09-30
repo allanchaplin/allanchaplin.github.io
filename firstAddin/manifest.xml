@@ -20,17 +20,17 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://allanchaplin.github.io/firstAddin" />
+        <SourceLocation DefaultValue="https://allanchaplin.github.io/firstAddin/" />
         <RequestedHeight>400</RequestedHeight>
       </DesktopSettings>
       <TabletSettings>
         <SourceLocation DefaultValue=
-          "https://allanchaplin.github.io/firstAddin" />
+          "https://allanchaplin.github.io/firstAddin/" />
           <RequestedHeight>400</RequestedHeight>
         </TabletSettings>
         <PhoneSettings>
           <SourceLocation DefaultValue=
-            "https://allanchaplin.github.io/firstAddin" />
+            "https://allanchaplin.github.io/firstAddin/" />
           </PhoneSettings>
         </Form>
       </FormSettings>
