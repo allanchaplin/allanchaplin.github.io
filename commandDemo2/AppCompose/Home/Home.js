@@ -48,14 +48,17 @@
       success: function (data) {
         console.log(data)
         app.showNotification(data);
+        insertText("Called the scary internet!");
       },
       error: function (data, errorCode, errorMessage) {
         console.log(errorCode)
         console.log(errorMessage)
+        insertText('Error: ' + errorCode + ' - ' + errorMessage);
         app.showNotification('Error: ' + errorCode + ' - ' + errorMessage);
       }
     });
-    insertText("Called the scary internet!");
+
+    insertText("Tried to call the internet!");
   }
 
   function insertMsg2() {
