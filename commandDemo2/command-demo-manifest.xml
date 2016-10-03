@@ -6,8 +6,8 @@
   xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0"
   xsi:type="MailApp">
-  <Id>7164e750-dc86-49c0-b548-1bac57abdc6f</Id>
-  <Version>1.0.0.1</Version>
+  <Id>7164e750-dc86-49c0-b548-1bac57abdc5f</Id>
+  <Version>1.0.0.3</Version>
   <ProviderName>Allan</ProviderName>
   <DefaultLocale>en-GB</DefaultLocale>
   <DisplayName DefaultValue="Scary Internet" />
@@ -511,7 +511,7 @@
         <bt:String id="menuComposeSuperTipTitle" DefaultValue="Choose a message to insert"/>
         <bt:String id="paneComposeSuperTipTitle" DefaultValue="Enter your own text to insert"/>
 
-        <bt:String id="menuItem1ComposeLabel" DefaultValue="Hello World!"/>
+        <bt:String id="menuItem1ComposeLabel" DefaultValue="Call the scary internet"/>
         <bt:String id="menuItem2ComposeLabel" DefaultValue="Add-in commands are cool!"/>
         <bt:String id="menuItem3ComposeLabel" DefaultValue="Visit dev.outlook.com"/>
 
@@ -534,7 +534,7 @@
         <bt:String id="menuComposeSuperTipDescription" DefaultValue="Inserts your choice of text into body of the message or appointment. This is an example of a drop-down menu button."/>
         <bt:String id="paneComposeSuperTipDescription" DefaultValue="Opens a pane where you can enter text to insert in the body of the message or appointment. This is an example of a button that opens a task pane."/>
 
-        <bt:String id="menuItem1ComposeTip" DefaultValue="Inserts Hello World! into the body of the message or appointment." />
+        <bt:String id="menuItem1ComposeTip" DefaultValue="Calls the scary internet! into the body of the message or appointment." />
         <bt:String id="menuItem2ComposeTip" DefaultValue="Inserts Add-in commands are cool! into the body of the message or appointment." />
         <bt:String id="menuItem3ComposeTip" DefaultValue="Inserts Visit dev.outlook.com into the body of the message or appointment." />
 
