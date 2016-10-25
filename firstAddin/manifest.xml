@@ -18,7 +18,7 @@
   </Requirements>
 
   <FormSettings>
-    <Form xsi:type="ItemRead">
+    <Form xsi:type="ItemEdit">
       <DesktopSettings>
         <SourceLocation DefaultValue="https://allanchaplin.github.io/firstAddin/" />
         <RequestedHeight>400</RequestedHeight>
@@ -34,9 +34,8 @@
           </PhoneSettings>
         </Form>
       </FormSettings>
-      <Permissions>ReadItem</Permissions>
+      <Permissions>ReadWriteItem</Permissions>
       <Rule xsi:type="RuleCollection" Mode="Or">
-        <Rule xsi:type="ItemIs" ItemType="Appointment" FormType="Read" />
-        <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
+        <Rule xsi:type="ItemIs" ItemType="Appointment" FormType="Edit" />
       </Rule>
     </OfficeApp>
