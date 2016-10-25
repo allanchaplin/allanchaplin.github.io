@@ -21,17 +21,7 @@
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
         <SourceLocation DefaultValue="https://allanchaplin.github.io/firstAddin/" />
-        <RequestedHeight>400</RequestedHeight>
-      </DesktopSettings>
-      <TabletSettings>
-        <SourceLocation DefaultValue=
-          "https://allanchaplin.github.io/firstAddin/" />
-          <RequestedHeight>400</RequestedHeight>
-        </TabletSettings>
-        <PhoneSettings>
-          <SourceLocation DefaultValue=
-            "https://allanchaplin.github.io/firstAddin/" />
-          </PhoneSettings>
+        </DesktopSettings>
         </Form>
       </FormSettings>
       <Permissions>ReadWriteItem</Permissions>
