@@ -1,0 +1,9 @@
+{
+  "name": "derwent-meeting-rooms",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "~1.9.1",
+    "microsoft.office.js": "*",
+    "office-ui-fabric": "*"
+  }
+}

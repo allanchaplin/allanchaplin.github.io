@@ -7,7 +7,7 @@
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0"
   xsi:type="MailApp">
   <Id>7164e750-dc86-49c0-b548-1bac57abdc5f</Id>
-  <Version>1.0.0.3</Version>
+  <Version>1.0.3</Version>
   <ProviderName>Allan</ProviderName>
   <DefaultLocale>en-GB</DefaultLocale>
   <DisplayName DefaultValue="Scary Internet" />
@@ -30,7 +30,7 @@
              on the ribbon in clients that support add-in commands. You can
              use a completely different page if desired -->
         <SourceLocation DefaultValue="https://allanchaplin.github.io/commandDemo2/AppRead/TaskPane/TaskPane.html"/>
-        <RequestedHeight>450</RequestedHeight>
+        <RequestedHeight>350</RequestedHeight>
       </DesktopSettings>
     </Form>
     <Form xsi:type="ItemEdit">
@@ -501,7 +501,7 @@
         <bt:Url id="customPaneUrl" DefaultValue="https://allanchaplin.github.io/commandDemo2/AppRead/CustomPane/CustomPane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="groupLabel" DefaultValue="Add-in Demo"/>
+        <bt:String id="groupLabel" DefaultValue="Scary internet!"/>
         <!-- Compose mode -->
         <bt:String id="funcComposeButtonLabel" DefaultValue="Insert default message"/>
         <bt:String id="menuComposeButtonLabel" DefaultValue="Insert message"/>
